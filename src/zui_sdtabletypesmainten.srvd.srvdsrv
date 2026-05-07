@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_SdTableTypesMainten_S'
+define service ZUI_SDTABLETYPESMAINTEN {
+  expose ZI_SDTABLETYPESMAINTEN_S as SdTableTypesMainAll;
+  expose ZI_SDTABLETYPESMAINTEN as SdTableTypesMainten;
+}

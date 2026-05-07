@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_SD_T_EXCEL'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_SD_T_EXCEL'
+  }
+}
+define service ZUI_SD_T_EXCEL_O4 provider contracts odata_v4_ui {
+  expose ZC_SD_T_EXCEL;
+}

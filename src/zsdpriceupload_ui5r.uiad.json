@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Price Upload Cockpit",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Price Upload Cockpit"
+  },
+  "ui5AppDetails": {
+    "appId": "hml.zsdpriceupload"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_A2F3D323F7B0F6CDE0E938F2CBBD0EFFD85D4161_TM",
+    "semanticObject": "zsdpriceupload",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_A2F3D323F7B0F6CDE0E938F2CBBD0EFFD85D4161_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Price Upload Cockpit"
+      }
+    }
+  ]
+}

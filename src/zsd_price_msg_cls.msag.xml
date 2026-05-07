@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Price Upload Cockpit Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tablo başarıyla güncellendi</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp;1. satırın geçerlilik tarihini kontrol ediniz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp;1.satırın &apos;&amp;2&apos; alanı sistemde bulunmuyor</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Önce bir ek ekleyiniz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&amp;1.satırda tekrarlayan kayıtlar bulunmakta</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1. satırda kilometrelerde çakışma mevcut</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;. satırda miktar alanlarını kontrol ediniz</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Excel&apos;de format hatası mevcut</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>T</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Ölçü birimi sistemde bulunmuyor</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZSD_PRICE_MSG_CLS</ARBGB>
+     <STEXT>Price Upload Cockpit Message Class</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Table is updated successfully</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Check the &amp;1. row&apos;s validity date</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>The &amp;1. row&apos;s &apos;&amp;2&apos; field does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Add an attachment first</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Duplicate records at &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Overlapping mileage exists at &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Check quantity at &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Format error in excel</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Unit of measure is not exist on system</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

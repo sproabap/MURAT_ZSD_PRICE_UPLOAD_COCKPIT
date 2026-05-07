@@ -1,0 +1,56 @@
+managed implementation in class ZBP_R_SD_T_EXCEL unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_SD_T_EXCEL alias ZrSdTExcel
+persistent table zsd_t_excel
+draft table zsd_t_excel_d
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master ( global )
+
+{
+  field ( mandatory : create )
+  Tabletype;
+
+  field ( readonly )
+  Attachid,
+  CreatedBy,
+  CreatedAt,
+  LastChangedBy,
+  LastChangedAt,
+  LocalLastChangedAt, url;
+
+  field ( numbering : managed )
+  Attachid;
+
+  field ( readonly : update )
+  Tabletype;
+
+
+  create;
+  update;
+  delete;
+
+  action ( features : instance ) updateTable result [1] $self;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for zsd_t_excel
+    {
+      Attachid           = attachid;
+      Tabletype          = tabletype;
+      Attachment         = attachment;
+      Mimetype           = mimetype;
+      Filename           = filename;
+      CreatedBy          = created_by;
+      CreatedAt          = created_at;
+      LastChangedBy      = last_changed_by;
+      LastChangedAt      = last_changed_at;
+      LocalLastChangedAt = local_last_changed_at;
+      url                = url;
+    }
+}

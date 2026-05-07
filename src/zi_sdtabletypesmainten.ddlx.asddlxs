@@ -1,0 +1,71 @@
+@Metadata.layer: #CUSTOMER
+@UI: {
+  headerInfo: {
+    typeName: 'SdTableTypesMainten',
+    typeNamePlural: 'SdTableTypesMaintens',
+    title: {
+      type: #STANDARD,
+      label: 'SD Table Types Maintenance',
+      value: 'Attachid'
+    }
+  }
+}
+annotate view ZI_SdTableTypesMainten with
+{
+  @UI.identification: [ {
+    position: 1
+  } ]
+  @UI.lineItem: [ {
+    position: 1
+  } ]
+  @UI.facet: [ {
+    id: 'ZI_SdTableTypesMainten',
+    purpose: #STANDARD,
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'SD Table Types Maintenance',
+    position: 1
+  } ]
+  Attachid;
+
+  @UI.identification: [ {
+    position: 2
+  } ]
+  @UI.lineItem: [ {
+    position: 2
+  } ]
+  @Consumption.valueHelpDefinition: [ { entity: { name: 'ZSD_I_TABLETYPES_VH', element: 'value_low' },
+                                    useForValidation: true } ]
+  Tabletype;
+
+  @UI.identification: [ {
+    position: 3 ,
+    label: 'Attachment'
+  } ]
+  @UI.lineItem: [ {
+    position: 3 ,
+    label: 'Attachment',
+    cssDefault.width: '40%'
+  } ]
+  Attachment;
+
+  @UI.identification: [ {
+    position: 4 ,
+    label: 'Mimetype'
+  } ]
+  @UI.lineItem: [ {
+    position: 4 ,
+    label: 'Mimetype',
+    cssDefault.width: '40%'
+  } ]
+  Mimetype;
+
+  @UI.identification: [ {
+    position: 5 ,
+    label: 'Filename'
+  } ]
+  @UI.lineItem: [ {
+    position: 5 ,
+    label: 'Filename'
+  } ]
+  Filename;
+}
